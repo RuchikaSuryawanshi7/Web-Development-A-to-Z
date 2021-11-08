@@ -1,0 +1,22 @@
+body {
+    background-color:powderblue;
+}
+
+hr {
+    background-color: powderblue;
+    border-style: none;
+    border-top-style:dotted;
+    border-width: 5px;
+    border-color: gray;
+    width: 5%;
+}
+h1 {
+    color: #32C1CD;
+  }
+  
+h3 {
+    color: #32C1CD;
+}
+a:link {
+    text-decoration: none;
+  }

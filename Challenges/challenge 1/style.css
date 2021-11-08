@@ -1,0 +1,31 @@
+h1 {
+    color: aqua;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+img:hover{
+    background-color: gold;
+}
+
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+
+#star {
+    color: fuchsia;
+}
+
+#star:hover{
+    color: goldenrod;
+}
