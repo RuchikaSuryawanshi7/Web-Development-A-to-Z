@@ -1,26 +1,36 @@
 body{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
 
 }
-#title{
-    background-color:#ff4c67;
-    color:#fff;
+h1,h2,h3{
+    font-family: 'Montserrat',sans-serif;
+
 }
-h1{
+p{
+    color: #8f8f8f
+}
+.big-heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
-    color:white;
-    
 }
-h2{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
-    font-size: 2.5rem;
-    color: white;
+
+#title{
+     text-align: left;
 }
+.coloured-section{
+    background-color: #ff4c67;
+    color: #fff;
+
+}
+.white-section{
+    background-color: #fff;
+
+}
+
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 .navbar-brand{
     font-family: 'Ubuntu';
@@ -47,26 +57,24 @@ h2{
 }
 /* Title-Image */
 .rot-img{
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+
 }
 /* Feature Section */
 #features{
-    padding: 7% 15%
+    padding: 7% 15%;
+    line-height: 1.5;
+    z-index: 1;
+    position: relative;
 }
 .feature-box{
-    text-align: center;
     padding:4%;
 
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 2;
-    font-size:1.5rem;
-}
-p{
-    color:#8f8f8f
-}
+
 .icon{
     color:#ef8172;
     margin-bottom: 1rem;
@@ -76,8 +84,11 @@ p{
 }
 #testimonials{
     background-color: #ef8172;
-    text-align: center;
     color: white;
+}
+.testimonial-text{
+    line-height: 1.5;
+    font-size: 2.5rem;
 }
 .testinomal-img{
     width: 15%;
@@ -85,8 +96,6 @@ p{
     padding: 1rem;
 }
 #press{
-    background-color: #ef8172;
-    text-align: center;
     padding-bottom: 7%;
 }
 .logo-img{
@@ -97,20 +106,10 @@ p{
     padding: 7% 15%;
 
 }
-.price-tag{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
-    font-size: 2.5rem;
-    color: black;
 
-}
 #pricing{
     padding: 8% 10%;
-    text-align:center;
     
-}
-.card{  
-    margin: 5px;
 }
 .sub-head {
     font-family: 'Montserrat', sans-serif;
@@ -118,6 +117,14 @@ p{
     font-size: 2.5rem;
     color: black;
 }
+.price-section{
+    line-height: 2;
+    font-size: 1.5rem;
+}
+.card{  
+    margin: 5px;
+}
+
 .button-price{
     padding: 3% 20%;
 }
@@ -131,4 +138,26 @@ p{
 .carousel-control-next-icon {
   width: 20vw;
   height: 5vw;
+}
+@media (max-width:1280px){
+    #title{
+        text-align:center;
+    }
+    .rot-img{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+#cta{
+    padding: 7% 15%;
+}
+#footer{
+    padding: 5% 15%;
+}
+.social-icon{
+    margin:8px;
+}
+.copy-right{
+    margin-top: 10px;
 }
