@@ -3,4 +3,4 @@ function BMI(weight, height) {
     return Math.round(bmi);
     
 }
-BMI(45, 160);
+BMI(45, 1.6);

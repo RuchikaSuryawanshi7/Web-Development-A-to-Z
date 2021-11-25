@@ -22,3 +22,5 @@ function fibonacciGenerator (n) {
 }
 
 fibonacciGenerator(5);
+Technologies like Web/App development , Machine Learning, computer vision are most important and powerful technologies to use, I have experience in web development,  Flutter, Dart, firebase and google cloud, Machine Learning. 
+Winter of code is program will give me a good exposure to the feild of open source and practical implementation 
