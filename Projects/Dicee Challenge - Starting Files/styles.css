@@ -39,3 +39,15 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.refresh-button{
+  margin-top: 5%;
+  padding: 2%;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 20%;
+  border-color: rgb(110, 110, 110);
+}
+.center{
+  text-align: center;
+}
